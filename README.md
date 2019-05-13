@@ -1,6 +1,8 @@
 # Dodo Util
 A tiny library for interfacing with a Dodo document store in Go!
 
+[Dodo document store is available here](https://github.com/danielwoodsdeveloper/dodo)
+
 ## Using Dodo Util
 This can be installed just as any other Go dependency: ```go get github.com/danielwoodsdeveloper/dodo-util```. Import it to your app: ```import ("danielwoodsdeveloper/dodo-util")```.
 
@@ -21,3 +23,6 @@ if err != nil {
     panic(err)
 }
 ```
+
+## To Do
+At the moment, Dodo document store supports authentication, but currently, *Dodo Util* does not.
